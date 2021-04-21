@@ -2,8 +2,8 @@ import React from 'react';
 import { SafeAreaView, Text, Image, StyleSheet, TouchableOpacity, Dimensions, View } from 'react-native';
 import { Feather } from '@expo/vector-icons'
 import colors from '../../styles/colors';
-import fonts from '../../styles/fonts'
-import wateringImg from '../assets/watering.png'
+import fonts from '../../styles/fonts';
+import wateringImg from '../assets/watering.png';
 import { useNavigation } from '@react-navigation/core';
 export function Welcome() {
     const navigation = useNavigation();
