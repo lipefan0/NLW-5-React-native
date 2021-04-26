@@ -2,8 +2,8 @@ import { useNavigation, useRoute } from '@react-navigation/core';
 import React from 'react';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import { Button } from '../components/Button';
-import colors from '../styles/colors';
-import fonts from '../styles/fonts';
+import colors from '../../styles/colors';
+import fonts from '../../styles/fonts';
 
 interface Params {
     title: string;

@@ -8,7 +8,7 @@ import { PlantSave } from '../pages/PlantSave';
 import { MyPlants } from '../pages/MyPlants';
 import AuthRoutes from './tabs.routes';
 
-import colors from '../styles/colors';
+import colors from '../../styles/colors';
 const stackRoutes = createStackNavigator();
 
 const AppRoutes: React.FC = () => (

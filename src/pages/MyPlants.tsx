@@ -1,15 +1,15 @@
 import React, { useEffect, useState } from "react";
 import { StyleSheet, View, Image, Text, FlatList, Alert } from "react-native";
 import { Header } from "../components/Header";
-import colors from "../styles/colors";
+import colors from "../../styles/colors";
 
 import waterdrop from "../assets/waterdrop.png";
 import { loadPlant, PlantProps, removePlant } from "../libs/storage";
 import { formatDistance } from "date-fns";
 import { pt } from "date-fns/locale";
-import fonts from "../styles/fonts";
+import fonts from "../../styles/fonts";
 import { PlantCardSecondary } from "../components/PlantCardSecondary";
-import { Load } from "../components/Load";
+import { Load } from "../components/Loading";
 
 export function MyPlants() {
     const [myPlants, setMyPlants] = useState<PlantProps[]>([]);

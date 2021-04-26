@@ -2,15 +2,15 @@ import { useNavigation } from '@react-navigation/core';
 import React, { useEffect, useState } from 'react';
 import { ActivityIndicator, FlatList, StyleSheet, Text, View } from 'react-native';
 
-import { EnvironmentButton } from '../components/EnvironmentButton';
+import { EnvironmentButton } from '../components/EnviromentButton';
 import { Header } from '../components/Header';
-import { Load } from '../components/Load';
+import { Load } from '../components/Loading';
 import { PlantCardPrimary } from '../components/PlantCardPrimary';
 import { PlantProps } from '../libs/storage';
 
 import api from '../services/api';
-import colors from '../styles/colors';
-import fonts from '../styles/fonts';
+import colors from '../../styles/colors';
+import fonts from '../../styles/fonts';
 
 interface EnvironmentProps {
     key: string;

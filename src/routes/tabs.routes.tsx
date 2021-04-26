@@ -1,7 +1,7 @@
 import React from 'react';
 import { Platform } from 'react-native'
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import colors from '../styles/colors';
+import colors from '../../styles/colors';
 import { PlantSelect } from '../pages/PlantSelect';
 import { MaterialIcons } from '@expo/vector-icons';
 import { MyPlants } from '../pages/MyPlants';

@@ -15,8 +15,8 @@ import DateTimePicker, { Event } from "@react-native-community/datetimepicker";
 
 import waterdrop from "../assets/waterdrop.png";
 import { Button } from "../components/Button";
-import colors from "../styles/colors";
-import fonts from "../styles/fonts";
+import colors from "../../styles/colors";
+import fonts from "../../styles/fonts";
 import { format, isBefore } from "date-fns";
 import { TouchableOpacity } from "react-native-gesture-handler";
 import { PlantProps, savePlant } from "../libs/storage";

@@ -4,8 +4,8 @@ import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 import userImg from '../assets/avatar.png';
-import colors from '../styles/colors';
-import fonts from '../styles/fonts';
+import colors from '../../styles/colors';
+import fonts from '../../styles/fonts';
 
 export function Header() {
     const [userName, setUserName] = useState<string>();
